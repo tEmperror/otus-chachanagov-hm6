@@ -1,7 +1,7 @@
 replicaCount: 1
 
 app:
-  withdrawUrl: http://billing-service.default.svc.cluster.local:8000/api/account/balance
+  withdrawUrl: http://billing-service.order-app.svc.cluster.local:8000/api/account/balance
 
 deployment:
   name: order-deployment
